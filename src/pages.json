@@ -1,0 +1,97 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "良查找朋",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的信息",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/inviteMe/inviteMe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "邀请我的人",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/adoreMe/adoreMe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "爱慕我的人",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/love/love",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的爱人",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/searchResult/searchResult",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#e79686",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+					"iconPath": "static/tabbar/index.png",
+					"selectedIconPath": "static/tabbar/indexFill.png",
+	        "text": "主页"
+	    }, {
+	        "pagePath": "pages/love/love",
+					"iconPath": "static/tabbar/love.png",
+					"selectedIconPath": "static/tabbar/loveFill.png",
+	        "text": "爱人"
+	    },
+			{
+			    "pagePath": "pages/inviteMe/inviteMe",
+					"iconPath": "static/tabbar/invite.png",
+					"selectedIconPath": "static/tabbar/inviteFill.png",
+			    "text": "邀请"
+			},
+			{
+			    "pagePath": "pages/adoreMe/adoreMe",
+					"iconPath": "static/tabbar/adore.png",
+					"selectedIconPath": "static/tabbar/adoreFill.png",
+			    "text": "爱慕"
+			},
+			{
+			    "pagePath": "pages/my/my",
+					"iconPath": "static/tabbar/my.png",
+					"selectedIconPath": "static/tabbar/myFill.png",
+			    "text": "我的"
+			}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
